@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://egneema-1.onrender.com/api/:path*"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+.env
+*.env
+team_credentials.csv
+e2e_creds.csv
+e2e.sqlite3*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Django / SQLite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+config/staticfiles/
+staticfiles/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm
+npm-debug.log*
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
